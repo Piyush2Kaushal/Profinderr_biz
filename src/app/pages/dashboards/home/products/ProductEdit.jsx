@@ -544,7 +544,7 @@ const ProductEdit = () => {
           </div>
 
           {/* Key Features / Variants */}
-          <div className="space-y-3">
+          {/* <div className="space-y-3">
             <h4 className="text-lg font-medium">Key Features</h4>
             {product.features?.map((feature, index) => (
               <Card key={feature._id} className="border border-gray-200 p-4">
@@ -609,7 +609,7 @@ const ProductEdit = () => {
                 ))}
               </Card>
             ))}
-          </div>
+          </div> */}
           <div className="flex flex-wrap gap-3 pt-4">
             <Button
               variant="outlined"
